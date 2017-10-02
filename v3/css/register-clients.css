@@ -1,0 +1,70 @@
+body{ font-family: 'Roboto', sans-serif; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;}
+.content-main {width: 100%; height: auto margin: auto;  overflow:hidden;  text-align: center;}
+.subcontent-main { width:35%; background:#FFFFFF; height: auto; display:inline-table; text-align: center; padding: 0px 80px; padding-bottom: 50px;}
+.header--main { height: calc(10vh); background: #000000; padding: 0px 20px; width: 100%; position: fixed;}
+.button-register{ background: #E86860; border: none; width: 100%; height: 45px; color: white; margin-top: 15px; outline: 0; cursor: pointer; font-size: 12px; border-radius: 4px; }
+.button-register:hover{background: #C96363;}
+.button-register:active{outline: : none;  box-shadow: none;}
+hr{ border:0; border-bottom:1px solid silver; }
+ .input-register { height: 40px; width: 90%; font-size: 15px; padding-left: 5px;  border: 1px solid silver; border-radius: 3px; border: 1px solid #ccc;}
+ .input-rs { height: 40px; border-radius: 0px; font-size: 15px; width: 98%; padding-left: 5px;  border: 1px solid silver; border-radius: 3px; border: 1px solid #ccc;}
+ span , .title{color:#607D8B; font-size:14px; margin-top: 10px;}
+ .span--title{color: #666; text-transform: uppercase; letter-spacing: 1px; font-size: 12px}
+ p{font-size: 11px; color:#A4A4A4}
+ .link-privacy{color:#607D8B; text-decoration: none; font-size: 11px;}
+ .button-account { background: #607D8B; border: none; float:right; padding: 10px 50px; height: 40px; color: #FFFFFF; font-size: 12px; border-radius: 4px; cursor: pointer; outline: none;}
+.button-account:hover{ background: #5B757F;}
+.button-account:active{outline: : none;  box-shadow: none;}
+ .input-error { outline: none !important;  border:1px solid red;  box-shadow: 0 0 1px #FF0000;}
+ .msg-error{color:red !important;}
+ ::-webkit-input-placeholder {
+   color: #D8D8D8;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     letter-spacing: 1px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #D8D8D8;  
+   font-size: 14px;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 1px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #D8D8D8;
+     font-size: 14px; 
+     font-family: 'Roboto', sans-serif; 
+     letter-spacing: 1px;
+}
+
+:-ms-input-placeholder {  
+   color: #D8D8D8;  
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     letter-spacing: 1px;
+}
+a.link {
+  color:#ccc; 
+  font-size: 14px; 
+  margin-right: 50px; 
+  margin-top: 20px;
+  border:1px solid #ccc;
+  padding: 7px 15px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+
+ @media screen and (max-width:900px){
+
+	.subcontent-main{ width: 40%;}
+
+}
+
+@media screen and (max-width:700px){
+
+	.subcontent-main{ width: 70%; right:calc(0vh);  }
+	.content-main { opacity: 0;}
+
+}

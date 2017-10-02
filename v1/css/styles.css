@@ -1,0 +1,180 @@
+body { padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; font-family: 'Roboto', sans-serif; width: 100%; height: 100%;}
+
+.menu { height: 60px; width: 100%; z-index: 1; background-color: #E86860; margin-top: 0px; position: fixed; box-shadow: 2px 0px 10px  rgb(171, 178, 185);}
+
+.btn-session{ height: 15px; width: 35px; color: white; text-decoration: none;}
+
+.ul-styl { position: absolute; right: 15px; }
+.btn-session:hover { color: gray;}
+
+.left-nav {background-color: #D8D8D8;}
+h4 {color: #607D8B; font-size: 18px;}
+
+.msg_error{ color: red; font-size: 11px; }
+.smallfont { font-size: 10px; }
+.contentmain {width: 100%;}
+.content_main { width: 50%; background-color: #FAFAFA; border: 1px solid #F2F2F2; padding-right: 15px; padding-left: 15px; padding-bottom: 15px; position: absolute; left: 25%;}
+.main{ width: 74%; float: right; background: #FFFFFF; height: -webkit-calc(100vh - 70px); height: calc(100vh - 70px); margin-top: 70px; padding-left: 30px; padding-right: 32px; overflow: hidden; position: relative;}
+.tableft { width: 21%; float: left; background: #FAFAFA; height: -webkit-calc(100vh - 70px); height: calc(100vh - 70px); margin-top: 60px; border-right: 1px solid #F2F2F2; }
+.link tr td { cursor: pointer; border-bottom: 1px solid #F2F2F2;}
+.link tr td:hover{background: #F2F2F2;}
+
+.frontpage {width: 100%; height: -webkit-calc(100vh); height: calc(100vh);  opacity: 0; z-index: 500; background: rgba(0, 0, 0, 0.7); position: absolute;  text-align: center;  margin: auto; }
+.subcontent{background:#FFFFFF; z-index: 501; display:inline-table;  opacity: 0; border-radius: 4px; }
+
+
+.displaymenu {width: 100%; height: 50px; border-bottom: 1px solid #D8D8D8; cursor: pointer;   }
+.displaymenu :hover{ background: #F2F2F2; cursor: pointer;}
+.contentdisplaymenu{  opacity: 0; display:none; background: #FFFFFF; position: absolute; position: fixed; box-shadow: 0px 0px 1px #A4A4A4; height: auto; width: 170px; margin-top: 110px; right: 0px; z-index: 5;  }
+.navfooter { width: 170px; height: 70px; position: absolute; right: 0; text-align: center; border-left: 1px solid #FFFFFF; cursor: pointer;}
+.navheader { border-right: 1px solid #FFFFFF;  cursor: pointer; color: #FFFFFF}
+.navheader:hover {background-color: #1E88E5; }
+.link-text{ color: #FFFFFF;  font-size: 18px; position: absolute; top: 30%; right: 30%;}
+
+.title { color: #2196F3; }
+
+.pop-window { width: 100%; height: -webkit-calc(100vh); height: calc(100vh); z-index: 501; position: absolute; top: 0px; display: none;  padding: 15px 15px; }
+.pop-window-table {top: 25%; right: 30%; position: absolute; position: fixed; border: 1px solid #BDBDBD; background-color: #FFFFFF; opacity: 0; box-shadow: 1px 1px 10px  rgba(50, 50, 50, 0.75)}
+.ui-input-photo { width: 30%; height: 25px; font-size: 12px; color: #607D8B; float:left;}
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5px;
+    background: #607D8B;
+    width: 120px;
+    height: 25px;
+    font-weight: bold;
+
+}
+.fileUpload span{ color: #FFFFFF; font-size: 12px}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    
+    
+}
+.restore { width: 25px; height: 25px; background-color: inherit; background-image: url(../images/restore.png); background-size: 25px 25px; background-repeat: no-repeat; cursor:pointer; border:0;} 
+.edit {  width: 25px; height: 25px; background-color: inherit; background-image: url(../images/edit.png); background-size: 25px 25px; background-repeat: no-repeat; border:0;cursor:pointer}    
+.delete { width: 25px; height: 25px;  background-color: inherit; background-image: url(../images/delete.png); background-size: 25px 25px;  background-repeat: no-repeat; border:0; cursor:pointer}  
+
+
+/*input { border: .5px solid #F2F2F2; height: 25px; width: 150px; } */
+span {color: #6E6E6E;}
+label { color: #607D8B; font-size: 12px;}
+hr{ border:0; border-bottom:1px solid silver; }
+
+
+span.span { color:#607D8B; font-size:13px;}
+label.label { color: #607D8B; font-weight: bold; font-size: 14px;}
+input[type="text"], input[type="password"]{ width: 250px; height: 20px; border: 1px solid #BDBDBD; border-radius: 5px; background-color: #FFFFFF; padding-left: 8px;  color:#607D8B;}
+textarea {  border: 1px solid #BDBDBD; border-radius: 5px; background-color: #FFFFFF; padding-left: 8px;  color:#607D8B;}
+select { width: auto; height: 26px; border: 1px solid #BDBDBD; border-radius: 5px; background-color: #FFFFFF; padding-left: 8px;  color:#607D8B;}
+.buttonsession{
+
+    background: #2196F3;
+    border: none;
+    width: 70px;
+    height: 25px;
+    color: white;
+    font-family: Corbel;
+    margin-top: 15px;
+    outline: 0;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+.red2{
+    background: #E86860;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 37px;
+    color: white;
+    margin-top: 15px;
+    outline: 0;
+    cursor: pointer;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    border-radius: 3px;
+   
+    
+}
+
+.gray2{
+     background: #F2F2F2;
+   border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 37px;
+    color: white;
+    margin-top: 15px;
+    outline: 0;
+    cursor: pointer;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    border-radius: 3px;
+   
+}
+  .buttonsession:hover{
+    background-color: #1E88E5;
+  }
+.draganddrop {background: #FAFAFA; width: 99%; height: 330px; text-align: center; border-radius: 25px; border: 3px solid #607D8B; border-style: dashed;}
+.draganddrop:hover{background:#F2F2F2; }
+div.browse-wrap {
+        float: left;
+        top:0;
+        left:0;
+        cursor:pointer;
+        overflow:hidden;
+        padding:5px 5px;
+        text-align:center;
+        position:relative;
+      
+        color: #FFFFFF;
+    }
+    span.tiitleimport {
+        color:#607D8B;
+        font-weight: bold;
+        font-size:20px !important;
+        position: relative;
+    }
+    span.tiitleimport:hover { color:#108FC1; }
+    input.importfile {       
+        opacity:0;
+        width: 200px;
+        outline:none;
+        cursor:inherit;
+        position:absolute;
+        left: 0;
+        font-size:1000px !important;
+    }
+
+    span.upload-path {
+        margin:10px;
+        display:block;
+        font-size: 80%;
+        color:#607D8B;
+        font-weight:bold;
+        font-family:tahoma, arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

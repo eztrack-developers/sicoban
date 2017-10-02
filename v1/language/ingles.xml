@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<platzi>
+	<paglogin>
+		<usuario>User</usuario>
+		<contrase>Password</contrase>
+		<idioma>Language</idioma>
+		<boton>login</boton>
+	</paglogin>
+</platzi>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languages name="espanol">
+
+	
+	<section name="login" index="0">
+		<usuario>Usuario</usuario>
+		<contrase>Contraseña</contrase>
+		<idioma>Lenguaje</idioma>
+		<boton>Entrar</boton>
+	</section>
+
+	<section name="index" index="1">
+		<myaccount>Mi Cuenta</myaccount>
+		<logout>Cerrar Sesión</logout>
+		
+	</section>
+
+
+
+
+</languages>

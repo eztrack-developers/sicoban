@@ -1,0 +1,81 @@
+
+body { font-family: 'Roboto', sans-serif; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px; background-color: #FFFFFF;  }
+
+p{letter-spacing: 0.005em;}
+.background-line{display: table; white-space: nowrap;}
+.background-line::before,.background-line::after{ border-top: 1px solid silver;; content: ''; display: table-cell; position: relative; top: 0.7em; width: 50%;}
+.content-main {width: 100%; height: -webkit-calc(100vh); height: calc(100vh);  margin: auto;  overflow:hidden;  text-align: center; background-image: url('http://www.sicoban.mx/images/background-session.svg');  background-repeat: no-repeat, repeat;  background-size: 100% 100%;}
+.subcontent-main { width:22%; background:#FFFFFF; height: -webkit-calc(100vh); height: calc(100vh); display:inline-table; text-align: center; padding: 0px 80px; border-left: 1px solid #D8D8D8; border-right: 1px solid #D8D8D8;}
+
+.link{ color:#E86860; text-decoration: none; font-size:13px;}
+.input-error { outline: none !important;  border:1px solid red;  box-shadow: 0 0 1px #FF0000;}
+hr{ border:0; border-bottom:1px solid silver; }
+input{ display: inline-block; }
+span { color: #607D8B; margin-top: 15px; margin-bottom: 5px; padding: 0px 15px; text-transform: uppercase; font-size: 13px;}
+h1{ color: #607D8B; }
+.input{ height: 35px; width: 95%;  border-radius: 4px;  color: #848484; background: #FFFFFF; padding-left: 10px; font-size: 15px; border: 1px solid silver;}
+.msg_error{ color:red; font-size: 12px; }
+.button-session:active{outline: : none;  box-shadow: none;}
+a { 
+  width: 99%;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid silver;  
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  padding: 11px 0px;
+}
+.silver{
+  color: silver;
+}
+.white{
+  color:#FFFFFF;
+}
+.red{
+   background: #E86860 !important;
+   border: none !important;
+}
+.red:hover{background: #C96363; }
+.silver:hover{background: silver; color: #FFFFFF;}
+::-webkit-input-placeholder {
+   color: #D8D8D8;
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     letter-spacing: 1px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #D8D8D8;  
+   font-size: 14px;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 1px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #D8D8D8;
+     font-size: 14px; 
+     font-family: 'Roboto', sans-serif; 
+     letter-spacing: 1px;
+}
+
+:-ms-input-placeholder {  
+   color: #D8D8D8;  
+     font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     letter-spacing: 1px;
+}
+
+@media screen and (max-width:900px){
+
+	.subcontent-main{ width: 40%;}
+
+}
+@media screen and (max-width:700px){
+
+	.subcontent-main{ width: 50%;}
+
+}
