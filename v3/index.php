@@ -30,7 +30,7 @@ if(isset($_GET)){
   <meta name="description" content="Realiza la conversion de archivos xml o exp de bancos a excel en documentos legibles">
   <meta name="keywords" content="exp, bancomer, bancos, conversión, excel, méxico, xml, Estados de cuenta Cash Windows, Exportación cuaderno 43, Estado de cuenta CIE diario, Consulta CIE movimientos del día por cuenta, Movimientos del día C43 (sólo registro 22), Saldos">
   <meta name="author" content="Jaime Ortiz">
-  <title>Sicoban | Login</title>
+  <title>Sicoban Jaime ortiz | Login</title>
 
   <link rel="stylesheet" href="css/session-style.css">
   <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
