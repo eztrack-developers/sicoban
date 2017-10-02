@@ -82,7 +82,7 @@ if(isset($_GET)){
                 <tr>
                 
                   <td height="7px" colspan="3">
-                    <a class="red white" onclick="sessionStart()">ENTRAR</a>
+                    <a class="red white" onclick="sessionStart()">ENTRARRR</a>
                   </td>
                 </tr>
                
