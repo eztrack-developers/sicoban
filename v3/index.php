@@ -82,13 +82,13 @@ if(isset($_GET)){
                 <tr>
                 
                   <td height="7px" colspan="3">
-                    <a class="red white" onclick="sessionStart()">ENTRARRR</a>
+                    <a class="red white" onclick="sessionStart()">ENTRAR</a>
                   </td>
                 </tr>
                
                 <tr>
                   <td align="center" height="100px">
-                          <p class="background-line"><span>O crea una cuenta</span></p>
+                          <p class="background-line"><span>O crea una cuenta nueva</span></p>
                   </td>
                 </tr>
                 <tr>
